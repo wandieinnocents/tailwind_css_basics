@@ -1,13 +1,66 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+    </h1>
+
+    <!-- Before -->
+    <button class="py-2 text-white py-34 sm:px-8 sm:py-3 bg-sky-700 hover:bg-sky-800">gggg</button>
+
+    <!-- After -->
+    <button class="px-4 py-2 text-white bg-sky-700 hover:bg-red-600 sm:px-8 sm:py-3">...</button>
+
+    <div class="flex items-center max-w-sm py-16 mx-auto space-x-4 bg-white shadow-lg rounded-xl">
+        <div class="shrink-0">
+            <img class="w-12 h-12" src="/img/logo.svg" alt="ChitChat Logo">
+        </div>
+        <div>
+            <div class="text-xl font-medium text-black">ChitChat</div>
+            <p class="text-slate-500">You have a new message!</p>
+        </div>
+    </div>
+
+    <div class="px-8 py-4 mx-auto bg-white shadow-lg rounded-xl">
+        <div class="text-xl font-medium text-black">ChitChat</div>
+        <p class="text-slate-500 ">You have a new message!</p>
+    </div>
+
+    <div
+        class="max-w-sm px-8 py-8 mx-auto space-y-2 bg-white shadow-lg rounded-xl sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+        <img class="block h-24 mx-auto rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg"
+            alt="Woman's Face" />
+        <div class="space-y-2 text-center sm:text-left">
+            <div class="space-y-0.5">
+                <p class="text-lg font-semibold text-black">
+                    Erin Lindford
+                </p>
+                <p class="font-medium text-slate-500">
+                    Product Engineer
+                </p>
+            </div>
+            <button class="bg-blue-300 hover:bg-sky-700 ...">
+                Save changes
+            </button>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
 </body>
+
 </html>
